@@ -441,3 +441,52 @@ footer {
       margin-right: 10px;        /* Space between the icon and heading */
       /* Optional: You can adjust the size here */
   }
+
+.menu {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  width: 50%;                /* Menu width on larger screens */
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  font-size: 18px;
+}
+
+.label {
+  background-color: #235d06; /* Dark background for label */
+  color: #F5BD1E;            /* White text for label */
+  font-weight: bold;
+  font-size: 24px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px; /* Space between label and text */
+  border-radius: 50%; /* Makes the label round */
+}
+
+.menu-item p {
+  margin: 0;
+}
+
+/* Responsive styling for small screens */
+@media (max-width: 600px) {
+  .menu {
+    width: 90%;  /* Wider on small screens */
+    text-align: center; /* Center the text */
+  }
+
+  .menu-item {
+    flex-direction: column; /* Stack label and text vertically */
+    align-items: center;    /* Center-align the text and label */
+  }
+
+  .label {
+    margin-right: 0;
+    margin-bottom: 10px; /* Adds space between label and text when stacked */
+  }
+}
