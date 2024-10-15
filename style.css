@@ -427,5 +427,17 @@ footer {
 
 .service-item {
     text-align: center; /* Ensures the list and other content are centered */
-}
-    
+  }
+
+  .announcement-header {
+      display: flex;              /* Use flexbox for alignment */
+      align-items: center;        /* Center items vertically */
+      justify-content: center;    /* Center items horizontally */
+      text-align: center;         /* Center text */
+      margin: 20px 0;            /* Add some vertical spacing */
+  }
+  
+  .announcement-header img {
+      margin-right: 10px;        /* Space between the icon and heading */
+      /* Optional: You can adjust the size here */
+  }
