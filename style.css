@@ -445,7 +445,7 @@ footer {
 .menu {
   padding: 20px;
   font-family: Arial, sans-serif;
-  width: auto;
+  width: auto;                /* Menu width on larger screens */
   text-align: left;
 }
 
